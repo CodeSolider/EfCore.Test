@@ -1,0 +1,12 @@
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\bin\Debug\net5.0\EbayPlatform.Model.deps.json
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\bin\Debug\net5.0\EbayPlatform.Model.dll
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\bin\Debug\net5.0\ref\EbayPlatform.Model.dll
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\bin\Debug\net5.0\EbayPlatform.Model.pdb
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\obj\Debug\net5.0\EbayPlatform.Model.csprojAssemblyReference.cache
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\obj\Debug\net5.0\EbayPlatform.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\obj\Debug\net5.0\EbayPlatform.Model.AssemblyInfoInputs.cache
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\obj\Debug\net5.0\EbayPlatform.Model.AssemblyInfo.cs
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\obj\Debug\net5.0\EbayPlatform.Model.csproj.CoreCompileInputs.cache
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\obj\Debug\net5.0\EbayPlatform.Model.dll
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\obj\Debug\net5.0\ref\EbayPlatform.Model.dll
+D:\Doc\Demo\EbayPlatform\EbayPlatform.Model\obj\Debug\net5.0\EbayPlatform.Model.pdb

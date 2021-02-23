@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "server=.;database=EbayPlatform;uid=sa;pwd=123456;" Microsoft.EntityFrameworkCore.SqlServer -O Models -F

@@ -1,0 +1,76 @@
+2021-02-22 18:04:42.9914 Error 启动服务发生异常  
+  Topshelf.ServiceBuilderException: An exception occurred creating the service: ServiceRunner
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'EbayPlatform.Infrastructure.IRepository<EbayPlatform.DataBase.Models.SyncJobConfig>'. This is often because no database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at EbayPlatform.Infrastructure.UnitOfWork`1.GetRepository[TEntity](Boolean hasCustomRepository) in D:\Doc\Demo\EbayPlatform\EbayPlatform.Infrastructure\UnitOfWork.cs:line 89
+   at EbayPlatform.ConsoleApp.ServiceRunner..ctor() in D:\Doc\Demo\EbayPlatform\EbayPlatform.ConsoleApp\ServiceRunner.cs:line 50
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean wrapExceptions, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& hasNoDefaultCtor)
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance[T]()
+   at Topshelf.ServiceExtensions.<>c__2`1.<Service>b__2_0(HostSettings x)
+   at Topshelf.Builders.ControlServiceBuilder`1.Build(HostSettings settings)
+   --- End of inner exception stack trace ---
+   at Topshelf.Builders.ControlServiceBuilder`1.Build(HostSettings settings)
+   at Topshelf.Builders.RunBuilder.Build(ServiceBuilder serviceBuilder)
+   at Topshelf.HostConfigurators.HostConfiguratorImpl.CreateHost()
+2021-02-22 18:06:33.9149 Error 启动服务发生异常  
+  Topshelf.ServiceBuilderException: An exception occurred creating the service: ServiceRunner
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'EbayPlatform.Infrastructure.IRepository<EbayPlatform.DataBase.Models.SyncJobConfig>'. This is often because no database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at EbayPlatform.Infrastructure.UnitOfWork`1.GetRepository[TEntity](Boolean hasCustomRepository) in D:\Doc\Demo\EbayPlatform\EbayPlatform.Infrastructure\UnitOfWork.cs:line 89
+   at EbayPlatform.ConsoleApp.ServiceRunner..ctor() in D:\Doc\Demo\EbayPlatform\EbayPlatform.ConsoleApp\ServiceRunner.cs:line 50
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean wrapExceptions, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& hasNoDefaultCtor)
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance[T]()
+   at Topshelf.ServiceExtensions.<>c__2`1.<Service>b__2_0(HostSettings x)
+   at Topshelf.Builders.ControlServiceBuilder`1.Build(HostSettings settings)
+   --- End of inner exception stack trace ---
+   at Topshelf.Builders.ControlServiceBuilder`1.Build(HostSettings settings)
+   at Topshelf.Builders.RunBuilder.Build(ServiceBuilder serviceBuilder)
+   at Topshelf.HostConfigurators.HostConfiguratorImpl.CreateHost()
+2021-02-22 18:10:13.7645 Error 启动服务发生异常  
+  Topshelf.ServiceBuilderException: An exception occurred creating the service: ServiceRunner
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'EbayPlatform.Infrastructure.IRepository<EbayPlatform.DataBase.Models.SyncJobConfig>'. This is often because no database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at EbayPlatform.Infrastructure.UnitOfWork`1.GetRepository[TEntity](Boolean hasCustomRepository) in D:\Doc\Demo\EbayPlatform\EbayPlatform.Infrastructure\UnitOfWork.cs:line 89
+   at EbayPlatform.ConsoleApp.ServiceRunner..ctor() in D:\Doc\Demo\EbayPlatform\EbayPlatform.ConsoleApp\ServiceRunner.cs:line 50
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean wrapExceptions, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& hasNoDefaultCtor)
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance[T]()
+   at Topshelf.ServiceExtensions.<>c__2`1.<Service>b__2_0(HostSettings x)
+   at Topshelf.Builders.ControlServiceBuilder`1.Build(HostSettings settings)
+   --- End of inner exception stack trace ---
+   at Topshelf.Builders.ControlServiceBuilder`1.Build(HostSettings settings)
+   at Topshelf.Builders.RunBuilder.Build(ServiceBuilder serviceBuilder)
+   at Topshelf.HostConfigurators.HostConfiguratorImpl.CreateHost()
+2021-02-22 18:11:19.1224 Error 启动服务发生异常  
+  Topshelf.ServiceBuilderException: An exception occurred creating the service: ServiceRunner
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'EbayPlatform.Infrastructure.IRepository<EbayPlatform.DataBase.Models.SyncJobConfig>'. This is often because no database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at EbayPlatform.Infrastructure.UnitOfWork`1.GetRepository[TEntity](Boolean hasCustomRepository) in D:\Doc\Demo\EbayPlatform\EbayPlatform.Infrastructure\UnitOfWork.cs:line 89
+   at EbayPlatform.ConsoleApp.ServiceRunner..ctor() in D:\Doc\Demo\EbayPlatform\EbayPlatform.ConsoleApp\ServiceRunner.cs:line 50
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean wrapExceptions, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& hasNoDefaultCtor)
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance[T]()
+   at Topshelf.ServiceExtensions.<>c__2`1.<Service>b__2_0(HostSettings x)
+   at Topshelf.Builders.ControlServiceBuilder`1.Build(HostSettings settings)
+   --- End of inner exception stack trace ---
+   at Topshelf.Builders.ControlServiceBuilder`1.Build(HostSettings settings)
+   at Topshelf.Builders.RunBuilder.Build(ServiceBuilder serviceBuilder)
+   at Topshelf.HostConfigurators.HostConfiguratorImpl.CreateHost()
